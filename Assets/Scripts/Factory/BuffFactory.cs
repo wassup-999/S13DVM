@@ -16,7 +16,7 @@ public class BuffFactory
 
             case BuffType.Speed: return new SpeedBuff(3, 5);
 
-            case BuffType.Slow: return new SpeedBuff(3, 5);
+            case BuffType.Slow: return new SlowDebuff(3, -3);
 
             case BuffType.Poison: return new SpeedBuff(3, 5);
         }

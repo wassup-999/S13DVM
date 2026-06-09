@@ -25,5 +25,6 @@ public class BuffPickUp : MonoBehaviour
             Destroy(gameObject, 1);
 
         }
+        
     }
 }
